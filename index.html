@@ -1,67 +1,104 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Practice Website</title>
-  
-</head>
-<body>
-  <div id=Title">
-  <h1>Pet Hotel</h1>
-    <img src="https://media.discordapp.net/attachments/1027695174891081809/1153467073905827911/dessertpic1.jpg?width=296&height=395" alt="dog photo">
-  </div>
-<!-- Services -->
-  <div id = "Service">
-    <h2>Services</h2>
+    <head>
+        <style>
+            body {
+                background: rgb(80, 99, 13);
+                color: rgb(255, 255, 255);
+                margin: 0;
+                padding: 0;
+            }
+            .title {
+                background: rgb(7, 26, 3);
+                color: rgb(227, 255, 68);
+                margin: 0;
+                padding: 0.5%;
+                text-align: center;
+                text-shadow: #FC0 1px 0 10px;
+            }
+             .Images {
+                background: rgb(214, 174, 47);
+                color: rgb(80, 99, 13);
+                margin: 0px;
+                padding: 5px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: large;
+                text-align: center;
+             }
 
-    <ul>
-      <li>$1500 Full Package</li>
-      <ul>
-        <li>7 days and nights</li>
-        <li>Bath & Spa</li>
-        <li>Includes meals and toys</li>
-      </ul>
-    </ul>
+            .row {
+            display: flex;
+            }
+            .column {
+            flex: 25%;
+            padding: 5px;
+            }
+            .fourth_column {
+            flex: 26%;
+            padding: 5px;
+            }
+        </style>
+    </head>
 
-    <ul>
-      <li>$800 Package</li>
-      <ul>
-        <li>5 days and nights</li>
-        <li>Bath</li>
-        <li>Includes meals and toys</li>
-      </ul>
-    </ul>
-  </div>
+    <body>
+        <div class="title"><h1>Tom Hiddleston Fan Page</h1></div>
 
-  <!-- Customers-->
-  <div id="Customer">
-    <h2>Happy Customer's</h2>
+        <div class="About">
+            <h1 style="color: #360808; font-style: oblique; text-align: center;">Tom Hiddleston</h1>
+            <h2 style="color: rgb(88, 40, 8); text-align: center">Actor ● Producer ● Soundtrack Artist</h2>
+            <p style="color: #360808; padding: 5px; margin: 5px;"><a href="https://en.wikipedia.org/wiki/Tom_Hiddleston" style="color:wheat;">Tom Hiddleston</a> is an English actor. 
+                He gained international fame portraying Loki in the Marvel Cinematic Universe (MCU), 
+                starting with Thor in 2011 and most recently in Ant-Man and the Wasp: Quantumania in 2023,
+                additionally headlining the Disney+ series Loki in 2021.
+            </p>
+            <div class="links" style="color: #360808; margin: 10px;">
+                <h2>Links</h2>
+                <ul>
+                  <li><a href="https://twitter.com/twhiddleston" style="color:rgb(88, 40, 8); font-size: larger;">Twitter</a></li>
+                  <li><a href="https://www.imdb.com/name/nm1089991/"style="color:rgb(88, 40, 8); font-size: larger;">Imdb</a></li>
+                </ul>
+            </div>
+            <div class="Shows" style="color: #360808;">
+                <h2>Shows</h2>
+                <ul>
+                    <p style="color: #360808; font-size: large;">Marvel</p>
+                    <ul>
+                        <li>Thor</li>
+                        <li>Avengers: Infinity War</li>
+                        <li>The Avengers</li>
+                        <li>Thor: The Dark World</li>
+                        <li>Loki</li>
+                    </ul>
+                    <p style="color: #360808; font-size: large;">Other Films</p>
+                    <ul>
+                        <li>Deadpool 3</li>
+                        <li>The Night Manager</li>
+                        <li>Kong: Skull Island</li>
+                        <li>High-Rise</li>
+                        <li>The Hollow Crown</li>
+                    </ul>
+                </ul>
 
-    <table>
-      <tr>
-        <td><img src="Bloxicorn_wildcxtcomm.png" alt="Customer" width="350" height="350"></td>
-        <td><img src="sleepy3.jpg" alt="dog" width="350" height="350"></td>
-      </tr>
-      <tr>
-        <td><img src="sleepy3.jpg" alt="dog3" width="350" height="350"></td>
-        <td><img src="sleepy3.jpg" alt="dog4" width="350" height="350"></td>
-      </tr>
-    </table>
+            </div>
+        </div>
 
-
-    
-  </div>
-    <!-- Location -->
-    <div id= "Location">
-      <h3>Location</h3>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28596.44022590647!2d-95.39154823225768!3d29.71742282497186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf8610513213%3A0x61f408cc441069f8!2sHouston%20Zoo!5e0!3m2!1sen!2sus!4v1695080198778!5m2!1sen!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-  <p><span class = "Contact">Email: </span><a href="mailto:ilovedogs@gmail.com">Send email</a></p>
-
-<p> <span class="Contact">Phone:</span> 832-555-1058</p>
-
-<p> <span class="Linkedin">Linkedin:</span> <a href="https://www.linkedin.com/in/grace-talley-3a578226b/" target="_blank">Owner's Linkedin</a></p>
-  
-</body>
-  
+        <div class="Images">
+            <h1>Gallery</h1>
+            <div class="row">
+                <div class="column"><img src="loki.jpg" alt="loki" style="width:100%"></div>
+                <div class="column"><img src="jungle_loki.jpg" alt="loki" style="width:100%"></div>
+                <div class="column"><img src="suit_loki.jpg" alt="loki" style="width:100%"></div>
+                <div class="fourth_column">
+                    <img src="king_loki.jpg" alt="loki" style="width:100%">
+                    <img src="loki_cool.jpg" alt="loki cool" style="width:100%">
+                    <img src="chair_loki.jpg" alt="loki cool" style="width:100%">
+                </div>
+            </div>
+        </div>
+        
+        <div class="Music">
+            <h1 style="color: #071A03;">Music from Loki</h1>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4AOWEKolvzbNewU24LZ6xT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        </div>
+        
+    </body>
 </html>
